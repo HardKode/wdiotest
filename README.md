@@ -1,0 +1,2 @@
+# wdiotest
+simple wdio test

@@ -1,0 +1,149 @@
+gabesam@Gabes-MacBook-Pro testswiss % npm run test
+
+> doover@1.0.0 test /Users/gabesam/development/wdiocode/wdiotest/testswiss
+> wdio wdio.conf.js
+
+
+Execution of 1 workers started at 2021-10-03T19:43:43.693Z
+
+2021-10-03T19:43:43.739Z INFO @wdio/cli:launcher: Run onPrepare hook
+2021-10-03T19:43:43.740Z INFO chromedriver: Start Chromedriver (/Users/gabesam/development/wdiocode/wdiotest/testswiss/node_modules/chromedriver/lib/chromedriver/chromedriver) with args --port=9515 --url-base=/
+2021-10-03T19:43:43.769Z INFO chromedriver: Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 9515
+2021-10-03T19:43:43.769Z INFO chromedriver: Only local connections are allowed.
+2021-10-03T19:43:43.769Z INFO chromedriver: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+2021-10-03T19:43:43.798Z INFO chromedriver: ChromeDriver was started successfully.
+2021-10-03T19:43:43.873Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2021-10-03T19:43:43.875Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
+[0-0] 2021-10-03T19:43:43.966Z WARN @wdio/utils:shim: You are running tests with @wdio/sync which will be discontinued starting Node.js v16.Read more on https://github.com/webdriverio/webdriverio/discussions/6702
+[0-0] 2021-10-03T19:43:44.443Z INFO @wdio/local-runner: Run worker command: run
+[0-0] RUNNING in chrome - /tests/example.js
+[0-0] 2021-10-03T19:43:45.105Z INFO webdriver: Initiate new session using the WebDriver protocol
+[0-0] 2021-10-03T19:43:45.155Z INFO webdriver: [POST] http://localhost:9515/session
+[0-0] 2021-10-03T19:43:45.155Z INFO webdriver: DATA {
+[0-0]   capabilities: {
+[0-0]     alwaysMatch: { browserName: 'chrome', acceptInsecureCerts: true },
+[0-0]     firstMatch: [ {} ]
+[0-0]   },
+[0-0]   desiredCapabilities: { browserName: 'chrome', acceptInsecureCerts: true }
+[0-0] }
+[0-0] 2021-10-03T19:43:47.064Z INFO webdriver: COMMAND navigateTo("http://www.example.com/")
+[0-0] 2021-10-03T19:43:47.065Z INFO webdriver: [POST] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:47.065Z INFO webdriver: DATA { url: 'http://www.example.com/' }
+[0-0] 2021-10-03T19:43:47.371Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:47.372Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:47.388Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:47.877Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:47.877Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:47.884Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:48.373Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:48.374Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:48.381Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:48.871Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:48.871Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:48.877Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:49.372Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:49.373Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:49.378Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:49.877Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:49.877Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:49.883Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:50.377Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:50.378Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:50.392Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:50.875Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:50.875Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:50.882Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:51.377Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:51.378Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:51.383Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:51.876Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:51.876Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:51.882Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:52.375Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:52.375Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:52.390Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:52.872Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:52.872Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:52.878Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:53.372Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:53.372Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:53.377Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:53.877Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:53.878Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:53.884Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:54.374Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:54.374Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:54.380Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:54.876Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:54.876Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:54.882Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:55.377Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:55.377Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:55.383Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:55.872Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:55.873Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:55.879Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:56.374Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:56.375Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:56.382Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:56.874Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:56.874Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:56.884Z INFO webdriver: RESULT http://www.example.com/
+[0-0] Error in "First Steps with webdriverIO.Load example website"
+Error: Expect window to have url
+
+Expected: "http://google.con"
+Received: "http://www.example.com/"
+    at Context.<anonymous> (/Users/gabesam/development/wdiocode/wdiotest/testswiss/tests/example.js:6:25)
+[0-0] 2021-10-03T19:43:57.390Z INFO webdriver: COMMAND navigateTo("http://www.example.com/")
+[0-0] 2021-10-03T19:43:57.390Z INFO webdriver: [POST] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:57.390Z INFO webdriver: DATA { url: 'http://www.example.com/' }
+[0-0] 2021-10-03T19:43:57.478Z INFO webdriver: COMMAND getUrl()
+[0-0] 2021-10-03T19:43:57.479Z INFO webdriver: [GET] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0/url
+[0-0] 2021-10-03T19:43:57.496Z INFO webdriver: RESULT http://www.example.com/
+[0-0] 2021-10-03T19:43:57.499Z INFO webdriver: COMMAND deleteSession()
+[0-0] 2021-10-03T19:43:57.499Z INFO webdriver: [DELETE] http://localhost:9515/session/5f78132525358a1adb497b68d19b43a0
+[0-0] FAILED in chrome - /tests/example.js
+2021-10-03T19:43:57.675Z INFO @wdio/cli:launcher: Run onComplete hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 94.0.4606.61 mac os x #0-0] Running: chrome (v94.0.4606.61) on mac os x
+[chrome 94.0.4606.61 mac os x #0-0] Session ID: 5f78132525358a1adb497b68d19b43a0
+[chrome 94.0.4606.61 mac os x #0-0]
+[chrome 94.0.4606.61 mac os x #0-0] » /tests/example.js
+[chrome 94.0.4606.61 mac os x #0-0] First Steps with webdriverIO
+[chrome 94.0.4606.61 mac os x #0-0]    ✖ Load example website
+[chrome 94.0.4606.61 mac os x #0-0]    ✓ Load example website:postive
+[chrome 94.0.4606.61 mac os x #0-0]
+[chrome 94.0.4606.61 mac os x #0-0] 1 passing (10.5s)
+[chrome 94.0.4606.61 mac os x #0-0] 1 failing
+[chrome 94.0.4606.61 mac os x #0-0]
+[chrome 94.0.4606.61 mac os x #0-0] 1) First Steps with webdriverIO Load example website
+[chrome 94.0.4606.61 mac os x #0-0] Expect window to have url
+
+Expected: "http://google.con"
+Received: "http://www.example.com/"
+[chrome 94.0.4606.61 mac os x #0-0] Error: Expect window to have url
+[chrome 94.0.4606.61 mac os x #0-0]
+[chrome 94.0.4606.61 mac os x #0-0] Expected: "http://google.con"
+[chrome 94.0.4606.61 mac os x #0-0] Received: "http://www.example.com/"
+[chrome 94.0.4606.61 mac os x #0-0]     at Context.<anonymous> (/Users/gabesam/development/wdiocode/wdiotest/testswiss/tests/example.js:6:25)
+
+
+Spec Files:      0 passed, 1 failed, 1 total (100% completed) in 00:00:13 
+
+2021-10-03T19:43:57.677Z INFO @wdio/local-runner: Shutting down spawned worker
+2021-10-03T19:43:57.932Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2021-10-03T19:43:57.932Z INFO @wdio/local-runner: shutting down
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! doover@1.0.0 test: `wdio wdio.conf.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the doover@1.0.0 test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/gabesam/.npm/_logs/2021-10-03T19_43_57_962Z-debug.log
+gabesam@Gabes-MacBook-Pro testswiss % 
